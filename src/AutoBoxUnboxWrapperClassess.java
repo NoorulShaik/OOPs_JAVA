@@ -20,6 +20,12 @@ public class AutoBoxUnboxWrapperClassess {
         Integer y = x; //this is called autoboxing java takes care.
         System.out.println(y);//unboxing is happening here as well y.intValue() is replaced with just y
         int z = y; //Unboxing in java
+        Integer a = 100;
+        Integer b = 1000; //If the values of a and b are same then a==b returns true.(behaves like string pool) two references points to same object since values are same na!
         System.out.println(z);
+        System.out.println(x == z); //true
+        System.out.println(a == b); //false -->because it is comparing the refernces not the values itself
+        System.out.println(a.equals(b));//always ue this
+        System.out.println(Integer.max(a ,b));
     }
 }
