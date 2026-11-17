@@ -1,3 +1,5 @@
+package Inhertance;
+
 public class Inheritance {
      /*
      Uses of inheritance are
@@ -31,3 +33,21 @@ class EngineeringStudent extends NoorulStudent{
         System.out.println("Lab Attended.");
     }
 }
+/*
+TYPEs of Inhertance.Inheritance
+1.Simple Inhertance.Inheritance A-->B (-->extends)
+2.multi-level Inhertance.Inheritance A-->B-->C
+3.Hierarchical Inhertance.Inheritance
+    A
+  /   \
+ B     C
+4.Multiple Inhertance.Inheritance(not supported in java) still there is a way to do it (using Interfaces).
+    oppposite to Hierarchical
+    A    B (these are parents)
+    \    /
+       C(this is child)
+
+       why not supported ?
+       Due to ambiguity! (Diamond Problem).
+
+ */
